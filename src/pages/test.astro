@@ -1,4 +1,5 @@
 ---
+import { Utils } from "../utils/utilClass";
 
 ---
 
@@ -12,6 +13,6 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>{Astro.locals.utils.toUpper("Astro")}</h1>
+		<h1>{new Utils().toUpper("Astro")}</h1>
 	</body>
 </html>
