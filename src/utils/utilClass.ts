@@ -1,3 +1,5 @@
+// Go To References in VSCode doesn't detect the usage in src/pages/test.astro
+export const STR = "HELLO WORLD";
 export class Utils {
   constructor() {}
 
